@@ -1,5 +1,5 @@
 sudo apt-get install libdb5.1++
-
+apt install autoconf automake libtool
 apt install libevent-dev
 
 apt-get install libdb5.3++-dev
