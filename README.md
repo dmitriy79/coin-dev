@@ -1,4 +1,4 @@
-apt install autoconf automake libtool libdb5.3++-dev libdb5.1++ libevent-dev libgmp3-dev
+apt install pkg-config autoconf automake libtool libdb5.3++-dev libdb5.1++ libevent-dev libgmp3-dev
 
 apt-get install libboost-all-dev
 
