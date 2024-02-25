@@ -11,5 +11,4 @@ apt-get install -y libsodium-dev
 
 bitcoin-cli getblocktemplate "{\"rules\":[\"segwit\"]}"
 
-cd depends
-./configure --prefix=/root/bitcoin/depends/x86_64-pc-linux-gnu
+cd depends && make -j4 && cd .. && ./configure --prefix=/root/bitcoin/depends/x86_64-pc-linux-gnu
